@@ -1,33 +1,29 @@
 package gal.udc.fic.vvs.email.archivador;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-import org.junit.Before;
+import org.junit.runner.RunWith;
 
 import com.pholser.junit.quickcheck.From;
 import com.pholser.junit.quickcheck.Property;
-import com.pholser.junit.quickcheck.generator.java.lang.StringGenerator;
+import com.pholser.junit.quickcheck.generator.InRange;
+import com.pholser.junit.quickcheck.generator.java.lang.IntegerGenerator;
+import com.pholser.junit.quickcheck.runner.JUnitQuickcheck;
 
+import gal.udc.fic.vvs.email.archivo.Texto;
+import gal.udc.fic.vvs.email.correo.Mensaje;
+
+@RunWith(JUnitQuickcheck.class)
 public class LogPBT {
 
-	private Log log;
-	private Archivador decorado;
-	
-	private static final String NOMBRE_DECORADO = "EjemploDecorado";
-	private static final int ESPACIO_ARCHIVADOR = 10;
-	
-	@Before
-	public void crearDatos()
-	{
-		decorado = new ArchivadorSimple(NOMBRE_DECORADO, ESPACIO_ARCHIVADOR);
-		log = new Log(decorado);
-	}
-	
-	@Property
-	public void obtenerYEstablecerDelegadoTest(@From(StringGenerator.class) String nombre) {
-		Archivador delegado = new ArchivadorSimple(nombre, ESPACIO_ARCHIVADOR);	
-		log.establecerDelegado(delegado);
+	@Property public void almacenarCorreoPBT(@From(IntegerGenerator.class) @InRange(min = "1") int espacioArchivador) {
+		Mensaje mensaje = new Mensaje(new Texto("1","1"));
+		Archivador archivadorDecorado = new ArchivadorSimple("nombre", espacioArchivador);
+		Archivador archivadorDelegado = null;
+		Log log = new Log(archivadorDecorado);
 		
-		assertEquals(nombre, log.obtenerDelegado().obtenerNombre());
-    } 
+		log.establecerDelegado(archivadorDelegado);
+		
+		assertTrue(log.almacenarCorreo(mensaje));
+	}
 }

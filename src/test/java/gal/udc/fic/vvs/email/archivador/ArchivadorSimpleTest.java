@@ -26,6 +26,9 @@ public class ArchivadorSimpleTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *   
 	 *  Prueba la recuperación del nombre de un ArchivadorSimple.
 	 */
 	@Test
@@ -35,6 +38,9 @@ public class ArchivadorSimpleTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 *  
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba el almacenamiento de un correo en un ArchivadorSimple
 	 *  en caso de que el espacio disponible sea suficiente.
 	 */
@@ -48,6 +54,9 @@ public class ArchivadorSimpleTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 * 
 	 *  Prueba el almacenamiento de un correo en un ArchivadorSimple.
 	 *  en caso de que el espacio disponible NO sea suficiente.
 	 */
@@ -61,6 +70,9 @@ public class ArchivadorSimpleTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra
+	 * 
 	 *  Prueba la recuperación del espacio total de un ArchivadorSimple.
 	 */
 	@Test
@@ -70,6 +82,9 @@ public class ArchivadorSimpleTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 * 
 	 *  Prueba la recuperación del espacio disponible de un ArchivadorSimple.
 	 */
 	@Test
@@ -84,6 +99,9 @@ public class ArchivadorSimpleTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 * 
 	 *  Prueba la recuperación del espacio total de un ArchivadorSimple.
 	 */
 	@Test
@@ -93,6 +111,9 @@ public class ArchivadorSimpleTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba cómo se establece un delegado en un ArchivadorSimple.
 	 */
 	@Test

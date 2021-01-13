@@ -50,6 +50,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -59,6 +62,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera obtiene la ruta cuando tiene padre.
 	 */
 	@Test
@@ -70,6 +76,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la exploración de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -80,6 +89,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba añadir un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -92,6 +104,9 @@ public class CabeceraTest {
 		
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -105,6 +120,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -115,6 +133,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera puede obtener un padre.
 	 */
 	@Test
@@ -126,6 +147,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera recupera el tamaño.
 	 */
 	@Test
@@ -135,6 +159,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera recupera la visualización.
 	 */
 	@Test
@@ -144,6 +171,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera se marca como leída y se recupera.
 	 */
 	@Test
@@ -154,6 +184,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera se recupera como NO leído.
 	 */
 	@Test
@@ -163,6 +196,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera recupera el icono de NO leído.
 	 */
 	@Test
@@ -172,6 +208,9 @@ public class CabeceraTest {
 
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una cabecera recupera el icono de leído.
 	 */
 	@Test
@@ -182,6 +221,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación de la previsualización de una cabecera.
 	 */
 	@Test
@@ -191,6 +233,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de una cabecera cuando la encuentra.
 	 */
 	@Test
@@ -202,6 +247,9 @@ public class CabeceraTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de una cabecera cuando NO la encuentra.
 	 */
 	@Test

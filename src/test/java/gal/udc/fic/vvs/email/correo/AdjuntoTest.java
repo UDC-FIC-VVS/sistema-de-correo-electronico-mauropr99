@@ -12,15 +12,11 @@ import gal.udc.fic.vvs.email.archivo.Texto;
 public class AdjuntoTest {
 
 	private Adjunto adjunto;
-	private Cabecera cabecera;
 	private Mensaje mensaje;
 	private Texto texto;
 	
 	private static String NOMBRE_TEXTO = "EjemploTexto";
 	private static String CONTENIDO_TEXTO = "Contenido del texto";
-	
-	private static String NOMBRE_CABECERA = "EjemploCabecera";
-	private static String VALOR_CABECERA = "Valor de la cabecera";
 	
 	// Tamaño establecido en la clase Mensaje
 	private final static int TAMAÑO_PREVISUALIZACION = 32;
@@ -52,12 +48,14 @@ public class AdjuntoTest {
 	public void crearDatos(){
 		texto = new Texto(NOMBRE_TEXTO, CONTENIDO_TEXTO);
 		mensaje = new Mensaje(texto);
-		cabecera = new Cabecera(mensaje, NOMBRE_CABECERA, VALOR_CABECERA);
 		adjunto = new Adjunto(mensaje, texto);
 	}
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -67,6 +65,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto obtiene la ruta cuando tiene padre.
 	 */
 	@Test
@@ -78,6 +79,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la exploración de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -88,6 +92,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba añadir un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -100,6 +107,9 @@ public class AdjuntoTest {
 		
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -113,6 +123,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -123,6 +136,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto puede obtener un padre.
 	 */
 	@Test
@@ -134,6 +150,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto recupera el tamaño.
 	 */
 	@Test
@@ -143,6 +162,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto recupera la visualización.
 	 */
 	@Test
@@ -152,6 +174,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto se marca como leído y se recupera.
 	 */
 	@Test
@@ -162,6 +187,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto se recupera como NO leído.
 	 */
 	@Test
@@ -171,6 +199,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto recupera el icono de NO leído.
 	 */
 	@Test
@@ -180,6 +211,9 @@ public class AdjuntoTest {
 
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un adjunto recupera el icono de leído.
 	 */
 	@Test
@@ -190,6 +224,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación de la previsualización de un adjunto.
 	 */
 	@Test
@@ -199,6 +236,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de un adjunto cuando lo encuentra.
 	 */
 	@Test
@@ -210,6 +250,9 @@ public class AdjuntoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de un adjunto cuando NO lo encuentra.
 	 */
 	@Test

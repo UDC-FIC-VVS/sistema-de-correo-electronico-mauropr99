@@ -35,6 +35,9 @@ public class DelegadoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba el almacenamiento de un correo en un Delegado
 	 *  en caso de que el espacio disponible del decorado sea suficiente
 	 */
@@ -48,6 +51,9 @@ public class DelegadoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba el almacenamiento de un correo en un Delegado
 	 *  en caso de que el espacio disponible con el delegado sea suficiente
 	 */
@@ -61,6 +67,9 @@ public class DelegadoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba el almacenamiento de un correo en un Delegado
 	 *  en caso de que el espacio total disponible NO sea suficiente.
 	 */
@@ -74,6 +83,9 @@ public class DelegadoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si se establece un delegado en un Delegado.
 	 */
 	@Test
@@ -86,6 +98,9 @@ public class DelegadoTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si se obtiene un delegado en un Delegado.
 	 */
 	@Test

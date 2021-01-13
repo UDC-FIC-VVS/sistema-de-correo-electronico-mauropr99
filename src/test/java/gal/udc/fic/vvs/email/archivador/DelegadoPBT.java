@@ -3,11 +3,14 @@ package gal.udc.fic.vvs.email.archivador;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
+import org.junit.runner.RunWith;
 
 import com.pholser.junit.quickcheck.From;
 import com.pholser.junit.quickcheck.Property;
 import com.pholser.junit.quickcheck.generator.java.lang.StringGenerator;
+import com.pholser.junit.quickcheck.runner.JUnitQuickcheck;
 
+@RunWith(JUnitQuickcheck.class)
 public class DelegadoPBT {
 	
 	private Delegado delegado;
@@ -24,7 +27,7 @@ public class DelegadoPBT {
 	}
 	
 	@Property
-	public void obtenerYEstablecerDelegadoTest(@From(StringGenerator.class) String nombreDelegado) {		
+	public void obtenerYEstablecerDelegadoPBT(@From(StringGenerator.class) String nombreDelegado) {		
 		archivadorDelegado = new ArchivadorSimple(nombreDelegado, ESPACIO_ARCHIVADOR*2);
 		delegado.establecerDelegado(archivadorDelegado);
 		

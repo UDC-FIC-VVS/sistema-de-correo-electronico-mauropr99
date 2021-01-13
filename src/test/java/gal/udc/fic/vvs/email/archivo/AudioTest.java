@@ -25,6 +25,9 @@ public class AudioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación del nombre de un Audio.
 	 */
 	@Test
@@ -34,6 +37,9 @@ public class AudioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación del contenido de un Audio.
 	 */
 	@Test
@@ -44,6 +50,9 @@ public class AudioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación del tamaño del contenido de un Audio.
 	 */
 	@Test
@@ -53,6 +62,9 @@ public class AudioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación de la previsualización de un Audio.
 	 */
 	@Test
@@ -62,6 +74,9 @@ public class AudioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación del mime type de un Audio.
 	 */
 	@Test

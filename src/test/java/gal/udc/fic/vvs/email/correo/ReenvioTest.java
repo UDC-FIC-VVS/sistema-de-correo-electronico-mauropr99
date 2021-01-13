@@ -46,6 +46,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un reenvio obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -55,6 +58,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un reenvio obtiene la ruta cuando tiene padre.
 	 * @throws OperacionInvalida 
 	 */
@@ -67,6 +73,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la exploración e inserción de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -77,6 +86,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -87,6 +99,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba añadir un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -98,6 +113,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -108,6 +126,9 @@ public class ReenvioTest {
 
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un reenvio y sus hijos se marcan como leídos y se recupera.
 	 * @throws OperacionInvalida 
 	 */
@@ -119,6 +140,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un reenvio y sus hijos se recuperan como NO leído.
 	 * @throws OperacionInvalida 
 	 */
@@ -129,6 +153,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un reenvio recupera el tamaño de sus hijos.
 	 * @throws OperacionInvalida 
 	 */
@@ -139,6 +166,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si un reenvio recupera el icono
 	 */
 	@Test
@@ -148,6 +178,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación de la visualización de un reenvio.
 	 * @throws OperacionInvalida 
 	 */
@@ -158,6 +191,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación de la previsualización de un reenvio.
 	 * @throws OperacionInvalida 
 	 */
@@ -168,6 +204,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de un reenvio cuando la encuentra.
 	 * @throws OperacionInvalida 
 	 */
@@ -180,6 +219,9 @@ public class ReenvioTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de un reenvio cuando NO la encuentra.
 	 */
 	@Test

@@ -42,6 +42,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una carpeta obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -51,6 +54,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una carpeta obtiene la ruta cuando tiene padre.
 	 * @throws OperacionInvalida 
 	 */
@@ -65,6 +71,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la exploración e inserción de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -79,6 +88,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -94,6 +106,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -105,6 +120,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una carpeta puede obtener un padre.
 	 */
 	@Test
@@ -116,6 +134,9 @@ public class CarpetaTest {
 
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una carpeta y sus hijos se marcan como leídos y se recupera.
 	 * @throws OperacionInvalida 
 	 */
@@ -128,6 +149,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una carpeta y sus hijos se recuperan como NO leído.
 	 * @throws OperacionInvalida 
 	 */
@@ -139,6 +163,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una carpeta recupera el tamaño de sus hijos.
 	 * @throws OperacionInvalida 
 	 */
@@ -150,6 +177,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba si una carpeta recupera el icono
 	 */
 	@Test
@@ -159,6 +189,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación de la visualización de una carpeta.
 	 * @throws OperacionInvalida 
 	 */
@@ -170,6 +203,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la recuperación de la previsualización de una carpeta.
 	 * @throws OperacionInvalida 
 	 */
@@ -181,6 +217,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de una carpeta cuando la encuentra.
 	 * @throws OperacionInvalida 
 	 */
@@ -194,6 +233,9 @@ public class CarpetaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
 	 *  Prueba la búsqueda de una carpeta cuando NO la encuentra.
 	 */
 	@Test

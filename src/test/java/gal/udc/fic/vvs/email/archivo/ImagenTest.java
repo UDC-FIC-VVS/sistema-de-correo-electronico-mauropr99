@@ -28,6 +28,8 @@ public class ImagenTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación del nombre de una imagen.
 	 */
 	@Test
@@ -39,6 +41,8 @@ public class ImagenTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la recuperación del contenido de una imagen.
 	 */
@@ -53,6 +57,8 @@ public class ImagenTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación del tamaño del contenido de una imagen.
 	 */
 	@Test
@@ -65,6 +71,8 @@ public class ImagenTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la previsualización de una imagen.
 	 */
 	@Test
@@ -76,6 +84,8 @@ public class ImagenTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la recuperación del mime type de una imagen.
 	 */

@@ -36,6 +36,8 @@ public class LogTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación del nombre del decorado de un Log.
 	 */
 	@Test
@@ -47,6 +49,8 @@ public class LogTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba el almacenamiento de un correo en el decorado de un Log
 	 *  en caso de que el espacio disponible sea suficiente.
@@ -64,6 +68,8 @@ public class LogTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba el almacenamiento de un correo en el decorado de un Log
 	 *  en caso de que el espacio disponible NO sea suficiente.
 	 */
@@ -79,6 +85,8 @@ public class LogTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la recuperación del espacio disponible del decorado de un Log.
 	 */
@@ -96,6 +104,8 @@ public class LogTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación del espacio total del decorado de un Log.
 	 */
 	@Test
@@ -108,6 +118,8 @@ public class LogTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de un delegado del decorado de un Log.
 	 */
 	@Test
@@ -119,6 +131,8 @@ public class LogTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si se establece un delegado en un Log.
 	 */

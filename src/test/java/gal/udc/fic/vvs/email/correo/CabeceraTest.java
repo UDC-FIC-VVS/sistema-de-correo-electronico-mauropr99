@@ -53,6 +53,8 @@ public class CabeceraTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una cabecera obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -64,6 +66,8 @@ public class CabeceraTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera obtiene la ruta cuando tiene padre.
 	 */
@@ -79,6 +83,8 @@ public class CabeceraTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la exploración de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -92,6 +98,8 @@ public class CabeceraTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba añadir un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -103,9 +111,11 @@ public class CabeceraTest {
 	}
 		
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
@@ -119,9 +129,11 @@ public class CabeceraTest {
 
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
@@ -132,9 +144,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera puede obtener un padre.
 	 */
@@ -146,9 +160,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera recupera el tamaño.
 	 */
@@ -158,9 +174,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera recupera la visualización.
 	 */
@@ -170,9 +188,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera se marca como leída y se recupera.
 	 */
@@ -183,9 +203,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera se recupera como NO leído.
 	 */
@@ -195,9 +217,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera recupera el icono de NO leído.
 	 */
@@ -207,9 +231,11 @@ public class CabeceraTest {
 	}
 
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una cabecera recupera el icono de leído.
 	 */
@@ -220,9 +246,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la recuperación de la previsualización de una cabecera.
 	 */
@@ -232,9 +260,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de una cabecera cuando la encuentra.
 	 */
@@ -246,9 +276,11 @@ public class CabeceraTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de una cabecera cuando NO la encuentra.
 	 */

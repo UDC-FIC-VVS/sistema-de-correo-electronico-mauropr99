@@ -45,6 +45,8 @@ public class CarpetaTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -56,6 +58,8 @@ public class CarpetaTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una carpeta obtiene la ruta cuando tiene padre.
 	 * @throws OperacionInvalida 
@@ -74,6 +78,8 @@ public class CarpetaTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la exploración e inserción de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -90,6 +96,8 @@ public class CarpetaTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
@@ -109,6 +117,8 @@ public class CarpetaTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -123,6 +133,8 @@ public class CarpetaTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta puede obtener un padre.
 	 */
 	@Test
@@ -136,6 +148,8 @@ public class CarpetaTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una carpeta y sus hijos se marcan como leídos y se recupera.
 	 * @throws OperacionInvalida 
@@ -152,6 +166,8 @@ public class CarpetaTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta y sus hijos se recuperan como NO leído.
 	 * @throws OperacionInvalida 
 	 */
@@ -165,6 +181,8 @@ public class CarpetaTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si una carpeta recupera el tamaño de sus hijos.
 	 * @throws OperacionInvalida 
@@ -180,6 +198,8 @@ public class CarpetaTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta recupera el icono
 	 */
 	@Test
@@ -191,6 +211,8 @@ public class CarpetaTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la recuperación de la visualización de una carpeta.
 	 * @throws OperacionInvalida 
@@ -206,6 +228,8 @@ public class CarpetaTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la previsualización de una carpeta.
 	 * @throws OperacionInvalida 
 	 */
@@ -219,6 +243,8 @@ public class CarpetaTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de una carpeta cuando la encuentra.
 	 * @throws OperacionInvalida 
@@ -235,6 +261,8 @@ public class CarpetaTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de una carpeta cuando NO la encuentra.
 	 */

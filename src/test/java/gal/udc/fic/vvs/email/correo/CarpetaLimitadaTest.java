@@ -45,6 +45,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta limitada obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -54,6 +59,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta limitada btiene la ruta cuando tiene padre.
 	 * @throws OperacionInvalida 
 	 */
@@ -68,6 +78,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la exploración e inserción de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -82,6 +97,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -97,6 +117,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -108,6 +133,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta limitada puede obtener un padre.
 	 */
 	@Test
@@ -119,6 +149,11 @@ public class CarpetaLimitadaTest {
 
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta limitada y sus hijos se marcan como leídos y se recupera.
 	 * @throws OperacionInvalida 
 	 */
@@ -131,6 +166,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta y sus hijos se recuperan como NO leído.
 	 * @throws OperacionInvalida 
 	 */
@@ -142,6 +182,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta limitada recupera el tamaño de sus hijos.
 	 * @throws OperacionInvalida 
 	 */
@@ -153,6 +198,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si una carpeta limitada recupera el icono
 	 */
 	@Test
@@ -162,6 +212,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la visualización de una carpeta limitada.
 	 * @throws OperacionInvalida 
 	 */
@@ -173,6 +228,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la previsualización de una carpeta limitada.
 	 * @throws OperacionInvalida 
 	 */
@@ -198,6 +258,11 @@ public class CarpetaLimitadaTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la búsqueda de una carpeta limitada cuando NO la encuentra.
 	 */
 	@Test

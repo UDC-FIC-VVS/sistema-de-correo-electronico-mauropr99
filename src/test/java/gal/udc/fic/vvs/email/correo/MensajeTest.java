@@ -38,6 +38,11 @@ public class MensajeTest {
 	
 	/** 
 	 * 	Test de unidad.
+	 * 
+	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un mensaje obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -49,6 +54,8 @@ public class MensajeTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un mensaje obtiene la ruta cuando tiene padre.
 	 */
@@ -64,6 +71,8 @@ public class MensajeTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la exploración de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -76,6 +85,8 @@ public class MensajeTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba añadir un correo (operación inválida)
 	 * @throws OperacionInvalida 
@@ -94,6 +105,8 @@ public class MensajeTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -110,6 +123,8 @@ public class MensajeTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -119,9 +134,11 @@ public class MensajeTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un mensaje puede obtener un padre.
 	 */
@@ -133,9 +150,11 @@ public class MensajeTest {
 	}
 
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un mensaje se marca como leído y se recupera.
 	 */
@@ -150,6 +169,8 @@ public class MensajeTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un mensaje se recupera como NO leído.
 	 */
 	@Test
@@ -158,9 +179,11 @@ public class MensajeTest {
 	}
 	
 	/** 
-	 * 	Test de unidad.
+* 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un mensaje recupera el tamaño.
 	 */
@@ -174,6 +197,8 @@ public class MensajeTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un mensaje recupera el icono de NO leído.
 	 */
 	@Test
@@ -185,6 +210,8 @@ public class MensajeTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un mensaje recupera el icono de leído.
 	 */
@@ -199,6 +226,8 @@ public class MensajeTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la previsualización de un mensaje.
 	 */
 	@Test
@@ -211,6 +240,8 @@ public class MensajeTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la visualización de un mensaje.
 	 */
 	@Test
@@ -222,6 +253,8 @@ public class MensajeTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de un mensaje cuando lo encuentra.
 	 */
@@ -236,6 +269,8 @@ public class MensajeTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de un mensaje cuando NO lo encuentra.
 	 */

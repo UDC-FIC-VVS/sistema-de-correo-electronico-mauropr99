@@ -56,6 +56,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un adjunto obtiene la ruta cuando NO tiene padre.
 	 */
 	@Test
@@ -67,6 +69,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un adjunto obtiene la ruta cuando tiene padre.
 	 */
@@ -82,6 +86,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la exploración de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -94,6 +100,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba añadir un correo (operación inválida)
 	 * @throws OperacionInvalida 
@@ -109,6 +117,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba eliminar un correo (operación inválida)
 	 * @throws OperacionInvalida 
@@ -126,6 +136,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la obtención del hijo de un correo (operación inválida)
 	 * @throws OperacionInvalida 
 	 */
@@ -138,6 +150,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un adjunto puede obtener un padre.
 	 */
@@ -153,6 +167,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un adjunto recupera el tamaño.
 	 */
 	@Test
@@ -165,6 +181,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un adjunto recupera la visualización.
 	 */
 	@Test
@@ -176,6 +194,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un adjunto se marca como leído y se recupera.
 	 */
@@ -190,6 +210,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un adjunto se recupera como NO leído.
 	 */
 	@Test
@@ -202,6 +224,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba si un adjunto recupera el icono de NO leído.
 	 */
 	@Test
@@ -213,6 +237,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba si un adjunto recupera el icono de leído.
 	 */
@@ -227,6 +253,8 @@ public class AdjuntoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la previsualización de un adjunto.
 	 */
 	@Test
@@ -238,6 +266,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de un adjunto cuando lo encuentra.
 	 */
@@ -252,6 +282,8 @@ public class AdjuntoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la búsqueda de un adjunto cuando NO lo encuentra.
 	 */

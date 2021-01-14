@@ -28,6 +28,8 @@ public class TextoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación del nombre de un texto.
 	 */
 	@Test
@@ -39,6 +41,8 @@ public class TextoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la recuperación del contenido de un texto.
 	 */
@@ -53,6 +57,8 @@ public class TextoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación del tamaño del contenido de un texto.
 	 */
 	@Test
@@ -65,6 +71,8 @@ public class TextoTest {
 	 * 
 	 *  Prueba funcional de caja negra.
 	 *  
+	 *  Datos introducidos manualmente.
+	 *  
 	 *  Prueba la recuperación de la previsualización de un texto.
 	 */
 	@Test
@@ -76,6 +84,8 @@ public class TextoTest {
 	 * 	Test de unidad.
 	 * 
 	 *  Prueba funcional de caja negra.
+	 *  
+	 *  Datos introducidos manualmente.
 	 *  
 	 *  Prueba la recuperación del mime type de un texto.
 	 */
